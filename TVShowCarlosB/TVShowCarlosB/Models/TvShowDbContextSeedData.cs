@@ -45,20 +45,6 @@ namespace TVShowCarlosB.Models
                     IsFavorite = random.Next(2) == 1
                 };
             }
-            //return new TvShow[] {
-            //    new TvShow(){
-            //        Title = "Movie 1", 
-            //        IsFavorite = false
-            //    },
-            //    new TvShow(){
-            //        Title = "Shrek", 
-            //        IsFavorite = true
-            //    },
-            //    new TvShow(){
-            //        Title = "Avatar", 
-            //        IsFavorite = false
-            //    },
-            //};
             return tvShows;
         }        
 

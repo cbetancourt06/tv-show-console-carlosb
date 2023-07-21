@@ -19,11 +19,7 @@ namespace TVShowCarlosB
             Console.WriteLine("-----TV Shows List-----");
             PrintList(await service.GetAllTvShows());
 
-            Console.WriteLine("\nThe menu options are:");
-            Console.WriteLine("list: To show the complete list of TV shows.");
-            Console.WriteLine("{ID}: Enter the ID (TV show identifier) to mark/unmark as favorite a show.");
-            Console.WriteLine("favorites: To show all your favorite shows.");
-            Console.WriteLine("exit: To exit from the application.");
+            PrintMenu();
 
             string option = "";
 
@@ -57,6 +53,15 @@ namespace TVShowCarlosB
                     Console.WriteLine("Invalid option. Try again.");
                 }
             }
+        }
+
+        public static void PrintMenu()
+        {
+            Console.WriteLine("\nThe menu options are:");
+            Console.WriteLine("list: To show the complete list of TV shows.");
+            Console.WriteLine("{ID}: Enter the ID (TV show identifier) to mark/unmark as favorite a show.");
+            Console.WriteLine("favorites: To show all your favorite shows.");
+            Console.WriteLine("exit: To exit from the application.");
         }
 
         private static void PrintList(IEnumerable<TvShow> tvShows)

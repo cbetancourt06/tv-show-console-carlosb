@@ -8,6 +8,10 @@ using TVShowCarlosB.Models;
 
 namespace TVShowCarlosB.Service
 {
+    /// <summary>
+    /// This is a repository class in which are stated all the needed logic for
+    /// consulting, editing, etc.
+    /// </summary>
     public class TvShowService : ITvShowService
     {
         private readonly TvShowDbContext _context;
