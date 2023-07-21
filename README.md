@@ -18,7 +18,7 @@ Then cd to the console project folder:
 $ cd TVShowCarlosB/TVShowCarlosB
 ````
 And finally run the `dotnet run` command. You'll see this in the prompt.
-![Console application running](https://imgur.com/mJeyQsG)
+![Run the application](%5BImgur%5D%28https://i.imgur.com/mJeyQsG.jpg%29)
 
 ## What options can I choose?
 Once within the application, the options are:
@@ -57,5 +57,4 @@ As you see, there is a list of Mexican TV Show. You can add or new shows or remo
 
 ## Run the test project.
 In the solution explorer, you can right-click the test project and select **Run Test,** then watch the results in Text Explore.
-![Run the tests](https://imgur.com/IG46Fez)
-
+![Run the tests](%5BImgur%5D%28https://i.imgur.com/IG46Fez.jpg%29)
