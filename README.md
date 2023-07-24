@@ -59,7 +59,7 @@ As you see, there is a list of Mexican TV Show. You can add or new shows or remo
 In the solution explorer, you can right-click the test project and select **Run Test,** then watch the results in Text Explore.
 ![Run the tests](https://i.imgur.com/IG46Fez.jpg "Run test")
 
-# But... What's the magic here?
+## But... What's the magic here?
 This solution includes the using of very important programming concepts like:
 - SOLID priniciples
 - Design patterns: Dependency Injection and Repository mainly
