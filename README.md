@@ -18,17 +18,17 @@ Then cd to the console project folder:
 $ cd TVShowCarlosB/TVShowCarlosB
 ````
 And finally run the `dotnet run` command. You'll see this in the prompt.
-![Run the application](%5BImgur%5D%28https://i.imgur.com/mJeyQsG.jpg%29)
+![Run the application](https://i.imgur.com/mJeyQsG.jpg "Menu")
 
 ## What options can I choose?
 Once within the application, the options are:
-`list`: Will show the complete list of TV shows.
-`{ID}`: If you ener an ID (TV show identifier) this will mark/unmark as favorite the selected show.
-`favorites`: Will show only your favorite shows.
-`exit`: To quit the application.
+- `list`: Will show the complete list of TV shows.
+- `{ID}`: If you ener an ID (TV show identifier) this will mark/unmark as favorite the selected show.
+- `favorites`: Will show only your favorite shows.
+- `exit`: To quit the application.
 
-## Where are the data comes from?
-I wrote the application to use an InMemory DB, so in the moment it runs, excutes a method o seed data on the DB. In the TvShowDbContextSeedData.cs file, you can see the code.
+## Where are the data come from?
+I wrote the application to use an InMemory DB, so in the moment it runs, excutes a method to seed data on the DB. In the TvShowDbContextSeedData.cs file, you can see the code.
 
 Here you have a snnipet:
 ````console
@@ -57,4 +57,12 @@ As you see, there is a list of Mexican TV Show. You can add or new shows or remo
 
 ## Run the test project.
 In the solution explorer, you can right-click the test project and select **Run Test,** then watch the results in Text Explore.
-![Run the tests](%5BImgur%5D%28https://i.imgur.com/IG46Fez.jpg%29)
+![Run the tests](https://i.imgur.com/IG46Fez.jpg "Run test")
+
+# But... What's the magic here?
+This solution includes the using of very important programming concepts like:
+- SOLID priniciples
+- Design patterns: Dependency Injection and Repository mainly
+- OOP concepts, eg Heritance
+
+All in the same place :D
